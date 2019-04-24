@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="fr" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="asdoria_relay.day_of_week.monday">
+                <source>asdoria_relay.day_of_week.monday</source>
+                <target>Lundi</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.day_of_week.tuesday">
+                <source>asdoria_relay.day_of_week.tuesday</source>
+                <target>Mardi</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.day_of_week.wednesday">
+                <source>asdoria_relay.day_of_week.wednesday</source>
+                <target>Mercredi</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.day_of_week.thursday">
+                <source>asdoria_relay.day_of_week.thursday</source>
+                <target>Jeudi</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.day_of_week.friday">
+                <source>asdoria_relay.day_of_week.friday</source>
+                <target>Vendredi</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.day_of_week.saturday">
+                <source>asdoria_relay.day_of_week.saturday</source>
+                <target>Samedi</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.day_of_week.sunday">
+                <source>asdoria_relay.day_of_week.sunday</source>
+                <target>Dimanche</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.popup.open">
+                <source>asdoria_relay.popup.open</source>
+                <target>Openings</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.form.submit">
+                <source>asdoria_relay.form.submit</source>
+                <target>Rechercher</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.form.street">
+                <source>asdoria_relay.form.street</source>
+                <target>Rue</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.form.zip_code">
+                <source>asdoria_relay.form.zip_code</source>
+                <target>Code postal</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.form.town">
+                <source>asdoria_relay.form.town</source>
+                <target>Ville</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.form.country">
+                <source>asdoria_relay.form.country</source>
+                <target>Pays</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.list.search">
+                <source>asdoria_relay.list.search</source>
+                <target>Rechercher</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.error.title">
+                <source>asdoria_relay.error.title</source>
+                <target>Une erreur est survenue</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.error.message.noresult">
+                <source>asdoria_relay.error.message.noresult</source>
+                <target>Aucun résultat n'a été trouvé pour l'adresse fournie</target>
+            </trans-unit>
+            <trans-unit id="asdoria_relay.countries.french.name">
+                <source>asdoria_relay.countries.french.name</source>
+                <target>France</target>
+            </trans-unit>
+             <trans-unit id="asdoria_relay.countries.italia.name">
+                <source>asdoria_relay.countries.italia.name</source>
+                <target>Italie</target>
+             </trans-unit>
+        </body>
+    </file>
+</xliff>

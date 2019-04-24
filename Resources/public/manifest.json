@@ -1,0 +1,12 @@
+{
+  "public/bundles/asdoriarelay/./css/0.min.css": "/bundles/asdoriarelay/./css/0.min.css",
+  "public/bundles/asdoriarelay/./js/0.min.js": "/bundles/asdoriarelay/./js/0.min.js",
+  "public/bundles/asdoriarelay/app.css": "/bundles/asdoriarelay/./css/app.min.css",
+  "public/bundles/asdoriarelay/app.js": "/bundles/asdoriarelay/./js/app.min.js",
+  "public/bundles/asdoriarelay/runtime.js": "/bundles/asdoriarelay/./js/runtime.min.js",
+  "public/bundles/asdoriarelay/images/layers-2x.png": "/bundles/asdoriarelay/./images/layers-2x.png",
+  "public/bundles/asdoriarelay/images/layers.png": "/bundles/asdoriarelay/./images/layers.png",
+  "public/bundles/asdoriarelay/images/marker-icon-red.png": "/bundles/asdoriarelay/./images/marker-icon-red.png",
+  "public/bundles/asdoriarelay/images/marker-icon.png": "/bundles/asdoriarelay/./images/marker-icon.png",
+  "public/bundles/asdoriarelay/images/marker-shadow.png": "/bundles/asdoriarelay/./images/marker-shadow.png"
+}

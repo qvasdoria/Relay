@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="asdoria_relay.mondial_relay.client" class="Asdoria\Component\Providers\Relay\MondialRelay\Client">
+            <argument>%asdoria_relay.mondial_relay.wsdl%</argument>
+            <argument>%asdoria_relay.mondial_relay.account_number%</argument>
+            <argument>%asdoria_relay.mondial_relay.password%</argument>
+        </service>
+        <service id="asdoria_relay.mondial_relay.processor" class="Asdoria\Component\Providers\Relay\MondialRelay\Processor">
+            <!-- ... -->
+            <call method="setClient">
+                <argument type="service" id="asdoria_relay.mondial_relay.client" />
+            </call>
+        </service>
+        <service id="asdoria_relay.mondial_relay.adaptor" class="Asdoria\Component\Providers\Relay\MondialRelay\Adaptor">
+            <argument type="service" id="asdoria_relay.mondial_relay.processor" />
+            <tag name="asdoria_relay.adaptor" provider="mondial_relay"></tag>
+        </service>
+    </services>
+</container>

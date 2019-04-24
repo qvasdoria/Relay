@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="asdoria_relay.provider" class="Asdoria\Bundle\RelayBundle\Provider\RelayProvider" public="true">
+            <call method="setRequestStack">
+                <argument type="service" id="request_stack" />
+            </call>
+        </service>
+
+        <service id="asdoria_relay.address.form" class="Asdoria\Bundle\RelayBundle\Form\Type\AddressType" public="true">
+            <tag name="form.type"  />
+        </service>
+
+        <service id="asdoria_relay.handler.address" class="Asdoria\Bundle\RelayBundle\Handler\AddressHandler" public="true">
+            <argument type="service" id="request_stack" />
+            <argument type="service" id="form.factory" />
+        </service>
+
+        <service id="asdoria_relay.extension.relay" class="Asdoria\Bundle\RelayBundle\Twig\Extension\RelayExtension" public="true">
+            <tag name="twig.extension" />
+            <argument type="service" id="translator" />
+            <argument type="service" id="router.default" />
+            <argument>%asdoria_relay.countries%</argument>
+        </service>
+
+        <service id="asdoria_relay.error_violation_list" class="Asdoria\Bundle\RelayBundle\Normalizer\ErrorViolationListNormalizer" public="true">
+            <argument>%kernel.debug%</argument>
+            <argument type="service" id="property_accessor" />
+        </service>
+    </services>
+</container>
+

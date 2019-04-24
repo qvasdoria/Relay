@@ -1,0 +1,28 @@
+{
+  "name": "asdoria/relay-bundle",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "description": "Symfony AsdoriaRelayBundle",
+  "authors": [
+    {
+      "name": "pvesin",
+      "email": "pvesin73@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9",
+    "friendsofsymfony/rest-bundle": ">=1.8.0",
+    "asdoria/relay": "^0.1"
+  },
+  "autoload": {
+    "psr-4": { 
+        "Asdoria\\Bundle\\RelayBundle\\": ""
+    }
+  },
+  "repositories": [
+    {
+      "url":  "https://github.com/ASDORIA/AsdoriaRelay.git",
+      "type": "vcs"
+    }
+  ]
+}

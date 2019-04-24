@@ -1,0 +1,13 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/bundles/asdoriarelay/./js/runtime.min.js",
+        "/bundles/asdoriarelay/./js/app.min.js"
+      ],
+      "css": [
+        "/bundles/asdoriarelay/./css/app.min.css"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.idea/
+node_modules/
+vendor/
+.git-old/
+*.phar
+phpunit.xml
